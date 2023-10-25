@@ -28,11 +28,18 @@ body>*{
     color: #f9faf8;
     margin-top: 0px;
     padding: 8px;
+    flex-wrap: wrap;
     
+}
+img{
+    display: flex;
 }
 .logo{
     width: 300px; 
-    margin-top: -55px;  background-size: cover;
+    margin-top: -55px;  
+    margin-bottom: -50px;
+    background-origin: border-box;
+  background-clip: content-box;
     
    
 }
@@ -56,7 +63,7 @@ ul{ display: flex;
     color: #f9faf8;
     padding: 8px;
     gap: 16px; 
-    margin-top: -70px;
+    
    
 }
 
@@ -116,10 +123,12 @@ h4{
 }
 .row3{
     display: flex;
+    flex-wrap:wrap;
     justify-content: flex-end;
     align-items: center;
     background-color: #e5e7eb;
     margin-bottom: 20px;
+    padding: 16px;
 }
 .review{
     display: flex;
