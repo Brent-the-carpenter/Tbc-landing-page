@@ -85,6 +85,7 @@ h1{
 .bookcase{
     width: 500px;
     border: #f9faf8 solid 2px;
+    
     flex:1;  
    
 }
@@ -124,7 +125,7 @@ h4{
 .row3{
     display: flex;
     flex-wrap:wrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
     margin-bottom: 20px;
@@ -146,7 +147,7 @@ h4{
     justify-content: space-around;
     align-items: center;
     flex: 2;
-    scroll: margin top 100% vh; ;
+    
 }
 .container1{
     background-color: #3882f6;
